@@ -4,8 +4,10 @@ public class CastTest
     public static void play(){
         Object o = new Double(5);
         Double d = (Double)o;
-      printClass(5);
-      printClass(3.2);
+        // yields ClassCastException
+        //Integer i = (Integer)o;
+        printClass(5);
+        printClass(3.2);
 
     }
 
@@ -14,7 +16,7 @@ public class CastTest
             Integer i = (Integer)o;
             System.out.println("found integer!"+i);
         }
-         if (o instanceof Double){
+        if (o instanceof Double){
             Double d = (Double)o;
             System.out.println("found double!"+d);
         }

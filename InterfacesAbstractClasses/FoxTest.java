@@ -36,5 +36,8 @@ public class FoxTest
         // doesn't work - ants are not drawable visibleAnimals.add(new Ant());
         for(Drawable a : visibleAnimals){
             a.draw();}
+            
+         Fox f1 = new Fox();
+         f1.eat();
     }
 }
