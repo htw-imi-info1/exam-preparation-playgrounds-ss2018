@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FoxTest
+comment0.text=\n\ The\ test\ class\ FoxTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=FoxTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ FoxTest\n
+comment2.params=
+comment2.target=void\ testFox()
+numComments=3
